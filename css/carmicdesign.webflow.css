@@ -6233,6 +6233,14 @@ strong {
   margin-left: auto;
 }
 
+.lottieedu {
+  position: absolute;
+  right: 0%;
+  bottom: -20%;
+  width: 180px;
+  height: 180px;
+}
+
 @media screen and (min-width: 1920px) {
   .nav-cta {
     -webkit-align-self: center;
