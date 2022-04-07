@@ -2547,6 +2547,7 @@ strong {
 .sectioncolor {
   z-index: 20;
   display: block;
+  overflow: hidden;
   margin-top: 100px;
   margin-bottom: 100px;
   padding-top: 20px;
@@ -6237,7 +6238,7 @@ strong {
   position: absolute;
   right: 0%;
   bottom: -20%;
-  width: 180px;
+  width: auto;
   height: 180px;
 }
 
@@ -8373,6 +8374,10 @@ strong {
   .img4 {
     width: 40%;
   }
+
+  .lottieedu {
+    height: 140px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -9858,6 +9863,10 @@ strong {
   .textholderin {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .lottieedu {
+    display: none;
   }
 }
 
